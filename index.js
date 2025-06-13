@@ -267,3 +267,46 @@ while (i <= 5) {
     if (i % 2 !== 0) console.log(i);
     i++;
 }
+
+//do while loop
+let j = 0;
+do {
+    if (j % 2 !== 0) console.log(j);
+    j++;
+} while (j <= 5);
+
+//infinite loops
+
+// let k=0;
+// while (k < 5) {
+//     console.log(k);
+//     // k++;
+//     // if (k === 3) break; // break the loop when k is 3
+// }
+
+// let m = 0;
+// do {
+//     console.log(m);
+//     // m++;
+// }   while (m < 5);
+
+// for (let n = 0; n < 5;) {
+//     console.log(n);
+// }
+
+//for in loop
+let person1 = {
+    name: 'Anike',
+    age: 25
+};
+for (let key in person1) {
+    console.log(key, person1[key]);
+}
+
+//for of loop
+
+let colors = ['red', 'blue', 'green'];
+for (let color of colors) {
+    console.log(color);
+}
+
